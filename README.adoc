@@ -1,0 +1,37 @@
+= 学习webpack
+//tag::meta[]
+xiayx <xiayouxue@hotmail.com>
+v1.0, 2019-01-07: SNAPSHOT
+:doctype: docbook
+:toc: left
+:numbered:
+:imagesdir: assets/images
+:sourcedir: src/main/java
+:resourcesdir: src/main/resources
+:testsourcedir: src/test/java
+:source-highlighter: highlightjs
+:coderay-linenums-mode: inline
+//end::meta[]
+
+webpack 是一个现代 JavaScript 应用程序的静态模块打包器。
+
+== 参考
+* https://webpack.js.org/[官网^]
+* https://webpack.docschina.org/[中文文档^]
+
+== 安装
+* npm -g webpack webpack-cli
+
+== 命令行
+=== webpack
+执行打包，打包后生成的js文件，可以直接在浏览器环境运行。
+默认将**src/index.js**输出到**dist/main.js**，
+可以通过配置文件：**webpack.config.js**修改。
+
+== 相关
+=== npx
+.``npx webpack``
+* 安装 webpack
+* 运行 webpack
+* 删除 webpack
+

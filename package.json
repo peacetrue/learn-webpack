@@ -1,0 +1,28 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "= 学习webpack //tag::meta[] xiayx <xiayouxue@hotmail.com> v1.0, 2019-01-07: SNAPSHOT :doctype: docbook :toc: left :numbered: :imagesdir: assets/images :sourcedir: src/main/java :resourcesdir: src/main/resources :testsourcedir: src/test/java :source-highlighter: highlightjs :coderay-linenums-mode: inline //end::meta[]",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peacetrue/learn-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peacetrue/learn-webpack/issues"
+  },
+  "homepage": "https://github.com/peacetrue/learn-webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
